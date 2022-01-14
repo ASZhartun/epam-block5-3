@@ -53,7 +53,8 @@ public class Calendar {
     public void setTypeDate(int number, Month month, DateType dateType) {
         for (Date date :
                 this.list) {
-            if (date.getNumber() == number && date.getMonth().getValue() == month.getValue()) date.setDateType(dateType);
+            if (date.getNumber() == number && date.getMonth().getValue() == month.getValue())
+                date.setDateType(dateType);
         }
     }
 

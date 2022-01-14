@@ -18,7 +18,7 @@ public class Main {
                 new Calendar.Date(1, Month.JANUARY, Calendar.DateType.HOLIDAY)
         );
         calendar.print();
-        System.out.println(calendar.getDate(13,Month.AUGUST));
+        System.out.println(calendar.getDate(13, Month.AUGUST));
         System.out.println();
         System.out.println(calendar.getDateByType(Calendar.DateType.WEEKEND));
         System.out.println();
